@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 1, 2020, 6:53:42 PM
+    Author     : Mohamed Abdou
+*/
+.video{
+   -fx-background-color:#313671; 
+}
+.backgroundbox{
+    -fx-background-color: #292A6A;
+
+}
+
+    .button {
+    -fx-background-color: white;
+    -fx-font-family: Tahoma;
+    -fx-font-size: 15px;
+    -fx-text-fill:#2196f3;
+    -fx-background-radius: 20px
+}
+
+.button:hover {
+    -fx-cursor: hand;
+    -fx-border-color: #2196f3;
+    -fx-border-width: 3px;
+    -fx-border-radius: 20px;
+    -fx-background-color: #FFF;
+    -fx-text-fill: #2196f3;
+    -fx-font-weight: bold
+}
+
+.button:pressed {
+    -fx-rotate: 12
+}
+
+.bluebtn {-fx-background-color: #d5e2f3;}
+
+.bluebtn, .whitebtn{ 
+     -fx-font-size: 35px;
+     -fx-text-fill: #ed55a9;
+}
+.label{-fx-font-size:20px;-fx-text-fill:#FFF;-fx-text-align:left;-fx-font-weight:bold;}
+.whitebtn:hover {-fx-text-fill: #ed55a9;}
+.bluebtn:hover{
+     -fx-cursor: hand;
+    -fx-border-width: 3px;
+    -fx-border-radius: 20px;
+    -fx-background-color: #FFF;
+    /*-fx-text-fill: #2196f3;*/
+    -fx-text-fill: #ed55a9;
+    -fx-font-weight: bold;
+    -fx-border-color: #2196f3;
+}
